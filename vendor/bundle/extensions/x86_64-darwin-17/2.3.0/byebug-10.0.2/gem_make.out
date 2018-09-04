@@ -1,0 +1,19 @@
+current directory: /Users/arturdrzyzga/ks/vendor/bundle/gems/byebug-10.0.2/ext/byebug
+/Users/arturdrzyzga/.rvm/rubies/ruby-2.3.3/bin/ruby -r ./siteconf20180830-44095-gg772j.rb extconf.rb
+creating Makefile
+
+current directory: /Users/arturdrzyzga/ks/vendor/bundle/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/arturdrzyzga/ks/vendor/bundle/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR="
+compiling locker.c
+compiling byebug.c
+compiling context.c
+compiling breakpoint.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/arturdrzyzga/ks/vendor/bundle/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 byebug.bundle ./.gem.20180830-44095-1evq56w/byebug
