@@ -40,6 +40,7 @@ gem 'rails-i18n'
 gem 'statesman'
 
 gem "rails-erd"
+gem "fog-aws"
 
 
 
