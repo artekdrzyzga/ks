@@ -1,2 +1,17 @@
-<h1>Products#show</h1>
-<p>Find me in app/views/products/show.html.erb</p>
+
+
+<div class = "col-md-3">
+  <%= image_tag @product.photo.url(:details), class: "img-responsive" %>
+</div>
+
+<div class="col-md-7">
+  <h1><%= @product.name %></h1>
+  <p class="lead"><%= @product.description %></p>
+  <p class="lead"><%= number_to_currency(@product.price) %></p>
+  <p>
+    <%= link_to add_product_cart_path(product_id: @product.id), method: :post, class: "btn btn-primary" do %>
+      <span class="fa fa-shopping-cart"> Dodaj do koszyka
+    <% end %>
+  </p>
+
+</div>
